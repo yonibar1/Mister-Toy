@@ -1,0 +1,13 @@
+.about{
+    padding: 40px;
+}
+  .map-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .map-buttons-container>*{
+    margin:10px 5px;
+  }

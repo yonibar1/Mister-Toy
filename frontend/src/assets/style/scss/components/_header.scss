@@ -1,0 +1,33 @@
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(230,244,241,1) 13%, rgba(128, 234, 255, 0.935) 100%);
+    width: 100%;
+    .brand-img{
+        width: 10%;
+        animation: mymove 2s;
+        transform: translateX(0);
+    }
+}
+
+@keyframes mymove {
+  0%   {transform: translateX(-600px);}
+}
+ 
+    #nav {
+        
+        a{
+            font-weight: bold;
+            color: #2c3e50;
+            text-decoration: none;
+            transition: color .6s;
+            &.router-link-exact-active{
+                color: #00AAB9;
+            }
+        }
+    }
+    
